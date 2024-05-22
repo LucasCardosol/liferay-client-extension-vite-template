@@ -1,0 +1,13 @@
+assemble:
+    - from: vite-build
+      into: static
+vite-template:
+    friendlyURLMapping: vite-template
+    htmlElementName: vite-template
+    instanceable: false
+    name: vite-template
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - assets/*.js
+    useESM: true
